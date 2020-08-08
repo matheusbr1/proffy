@@ -4,7 +4,7 @@ import whatsappIcon from "../../assets/images/icons/whatsapp.svg";
 
 import "./styles.css";
 
-function TeacherItem() {
+const TeacherItem: React.FC = () => {
   return (
     <article className="teacher-item">
       <header>
@@ -38,6 +38,6 @@ function TeacherItem() {
       </footer>
     </article>
   );
-}
+};
 
 export default TeacherItem;
