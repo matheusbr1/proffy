@@ -23,10 +23,8 @@ export default function App() {
     Poppins_600SemiBold,
   });
 
-  // return <AppStack />;
-
   if (!fontsLoaded) {
-    AppLoading;
+    return AppLoading;
   } else {
     return (
       <>
